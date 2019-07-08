@@ -1,0 +1,2 @@
+Mee Seong Im (United States Military Academy) mathematica, basic sage/cocalc, RStudio (for probability and statistics), Macaulay2, magma
+fowl
