@@ -14,7 +14,7 @@ Each file is reached by following a path in the tree.
 - Navigate with the `cd` (*change directory*) command. Paths are relative to
   your position in the tree.
   - `../` goes up one level
-  - Going  to in your Documents folder `cd Documents/papers`
+  - Going  to in your papers folder `cd Documents/papers`
   - Going  to the root `cd /`
   - Going  to your home directory `cd` or `cd ~`
   - Going one level up in the tree `cd ..` or two levels `cd ../..`
@@ -33,12 +33,12 @@ Filename that starts with a dot are hidden
 
 # Modifying file
 
-- remove file `rm file`
+- remove file `rm <file>`
 - copy file `cp myfile destination_folder`
 - move and rename file `mv <current_name> <new_name>`
 - make a directory `mkdir <name>`
 
-The star acts as a joker `rm *.py` remove all python file in your current
+The star acts as a joker `rm *.py` remove all python files in your current
 directory.
 
 # Search and find
@@ -57,18 +57,19 @@ find ~/ -name 'lost_code.py'
 - Starting a program ex: `sage` or `sage --notebook=jupyter`
 - Stop the running program by hitting `ctrl-c`
 - Complete the command you are writing by pressing `tab`
-- creating shortcut for thing that you do a lot with *aliases*.
+- creating shortcuts for things that you do a lot with *aliases* (*e.g.* sagen)
 - pass results of a command to an other with the *pipe* mechanism
 ```bash
 ls | grep .py
 ```
+The results of `ls` is passed to `grep`
 
 # Getting help on the command
 
 - man page with `man mv`
 - help (`--help`, `-h`) `mv --help`
 - [tldr](https://github.com/tldr-pages/tldr) (needs to be installed) `tldr mv`
-    - On debian based system `sudo apt install tldr`
+    - On Debian-based system `sudo apt install tldr`
 
 
 # Going further
