@@ -76,3 +76,21 @@ The results of `ls` is passed to `grep`
 
 - [Software Carpentry](http://swcarpentry.github.io/shell-novice/)
 - [Game Shell](http://lama.univ-savoie.fr/~hyvernat/Enseignement/1617/info202/tp2.html) (French only)
+
+# Your turn
+
+- Retrieve the `tutorial_files` folder with the link on the tutorial page
+  (unzip the archive, you can do it from the terminal with the `unzip` command).
+
+- Go inside the `tutorial_files` folder.
+
+- remove the file to_delete.txt.
+
+- Find the file `where_am_i.txt`.
+
+- Create a folder named `pictures` inside the `tutorial_files` folder
+and move all the picture (the file with a `.jpg` extension) from the video
+folder in it.
+
+- Inside the `participants` folder each file contains a participant name
+and an English word. Find the word that goes with your name.
